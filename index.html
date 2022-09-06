@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevAmine Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <script src="https://kit.fontawesome.com/7af9620305.js" crossorigin="anonymous"></script>
+
+    <!-- google fonts to boost the stonks -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#" class="logo__text">&lt;DevAmine/&gt;</a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Amine Rhindi</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+        <img src="newImg/profile-main.png" alt="a picture of Amine Rhindi" class="intro__img">
+    </section>
+
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Designer</h3>
+                <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>Frontend Developer</h3>
+                <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>Share the knowledge</h3>
+                <p>The best way to master something is to teach it over and over. I love helping out fellow designers and developers.
+                    It brings me satisfaction and boost my skills.</p>
+            </div> <!-- / service -->
+        </div> <!-- / services -->
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Designer & developer based out of Paris</p>
+
+        <div class="about-me__body">
+            <p>After high school, I went to an engineering school where I learned electrical engineering. When I graduated, I had the ability to program microcontrollers and design electrical systems.</p>
+            <p>I started working in the safety field of electrical engineering, but after 3 years I wanted to do a job where coding is the main skill needed. That's why I decided 1 year ago to become a web developper.</p>
+            <p>I found out that I really enjoy making websites. I had again regained the joy of learning.</p>
+            <p>Now after many hours spent on learning, and more on making web applications, I feel ready to be a part of a larger organisation to collaborate with other developers in order to produce complex web applications</p>
+        </div>
+
+        <img src="newImg/profile-picture.png" alt="Jane trying to look professional" class="about-me__img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="watchlist.html" class="portfolio__item">
+                <img src="newImg/watchlist.PNG" alt="eggflix" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href="ecommerce.html" class="portfolio__item">
+                <img src="newImg/ecommerce.PNG" alt="ecommerce" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a href="noteApp.html" class="portfolio__item">
+                <img src="newImg/noteApp.PNG" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 04 -->
+            <a href="quizzical.html" class="portfolio__item">
+                <img src="newImg/quizzical.PNG" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 05 -->
+            <a href="colorGenerator.html" class="portfolio__item">
+                <img src="newImg/colorGenerator.PNG" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 06 -->
+            <a href="typingGame.html" class="portfolio__item">
+                <img src="newImg/typingGame.PNG" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 07 -->
+            <a href="picsome.html" class="portfolio__item">
+                <img src="newImg/picsome.PNG" alt="" class="portfolio__img">
+            </a>
+
+            
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:amine.rhindi@gmail.come" class="footer__link">amine.rhindi@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/mohamed-amine-rhindi-bb8501124/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.doyoubuzz.com/mohamed-amine-rhindi" target="_blank">
+                    <i class="fa-solid fa-address-card"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/MohamedAmineRhindi" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
